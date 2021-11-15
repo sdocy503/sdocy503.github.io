@@ -4,6 +4,7 @@ permalink: /DISCORDCOPY/
 
 # Warlord_Sdocy#7567
 <button onclick="myFunction()">Click here to copy ID</button>
+<br>
 After copying paste into discord to add me as a friend or message me.
 
 <script>
