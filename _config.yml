@@ -1,0 +1,50 @@
+version:     "0018b--03-Aug-2021"
+copyright:   "2021-2021"
+description:
+  This is a
+  GitHub Page Template
+disclaimer:
+  I have spoken.
+keywords:    "jekyll, testing"
+navbarlinks:
+- navbar:    "Home"
+  link:      "/"
+- navbar:    "Links"
+  link:      "/LINKS/"
+- navbar:    "Tips"
+  link:      "/TIPS/"
+- navbar:    "Zip File"
+  link:      "/template.zip"
+- navbar:    "TarBall"
+  link:      "/template.tar.bz2"
+- navbar:    "GitHub"
+  link:      "https://github.com/ThisIsHowMeDoIt/template/"
+- navbar:    "Listing"
+  link:      "/000.html"
+- navbar:    "About"
+  link:      "/ABOUT/"
+- navbar:    "GitHub Page"
+  link:      "https://template.vlsm.org/"
+title:       "GitHub Page Template"
+lang:        "en-US"
+author:      "J. Walker"
+address:     "Box 7, Mawitaan, Bangalla."
+sitemap:     "true"
+markdown:    "kramdown"
+defaults:
+- scope:
+    path:    ""
+  values:
+    layout:  "default"
+github:
+- metadata
+plugins:
+- jekyll-sitemap
+- jekyll-seo-tag
+google_analytics: "UA-89852122-15"
+
+urlweb:           "https://template.vlsm.org/"
+urlcontact:       "TBA"
+urlgithub:        "https://github.com/ThisIsHowMeDoIt/template"
+
+
