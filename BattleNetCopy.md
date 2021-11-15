@@ -15,4 +15,8 @@ function myFunction() {
   /* Alert the copied text */
   alert("Copied the text: " + "WarlordSdocy#1218");
 } 
+
+window.onload = function loadFunction() {
+	$("header").hide();
+}
 </script>
