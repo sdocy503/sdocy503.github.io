@@ -1,5 +1,5 @@
 ---
-permalink: /BATTLENETCOPY/
+permalink: /BATTLENET/
 ---
 
 # WarlordSdocy#1218

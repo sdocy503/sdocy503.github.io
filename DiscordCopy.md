@@ -1,5 +1,5 @@
 ---
-permalink: /DISCORDCOPY/
+permalink: /DISCORD/
 ---
 
 # Warlord_Sdocy#7567
