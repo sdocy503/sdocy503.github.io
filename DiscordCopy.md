@@ -3,10 +3,10 @@ permalink: /DISCORDCOPY/
 ---
 
 # Warlord_Sdocy#7567
-Automatically copied to your clipboard, go and past it in discord now!
+<button onclick="myFunction()">Click here to copy ID</button>
 
 <script>
-window.onload = function myFunction() {
+function myFunction() {
    /* Copy the text inside the text field */
   navigator.clipboard.writeText("Warlord_Sdocy#7567");
 
