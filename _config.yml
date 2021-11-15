@@ -31,7 +31,7 @@ plugins:
 - jekyll-seo-tag
 google_analytics: "UA-89852122-15"
 
-urlweb:           "https://template.vlsm.org/"
+urlweb:           "https://sdocy503.github.io/"
 urlcontact:       "TBA"
 urlgithub:        "https://github.com/ThisIsHowMeDoIt/template"
 
