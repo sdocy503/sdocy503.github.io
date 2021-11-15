@@ -2,14 +2,10 @@
 ---
 
 <br>
-This [GitHub Page](https://pages.github.com/) is hosted at [GitHub.com]({{ site.urlgithub }}).
-You can download the source either as a
-[ZIP]({{ site.baseurl }}/template.zip) file or a
-[TARBALL]({{ site.baseurl }}/template.tar.bz2) file.
-File [LISTINGS]({{ site.baseurl }}/000.html) are also available.
+Welcome to my website, on here you can find links and descriptions to the various programming and game projects I've worked on.
+The website is still under construction for now so not much is here yet.
 
-I am {{ site.author }}, {{ site.address }}
-
+<!---
 <br>
 ## Table Example
 
@@ -38,4 +34,5 @@ int main(void) {
 
 <br>
 Qapla!
+--->
 

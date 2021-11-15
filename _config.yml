@@ -11,7 +11,7 @@ navbarlinks:
   link:      "/"
 - navbar:    "Links"
   link:      "/LINKS/"
-- navbar:    "About"
+- navbar:    "About Website"
   link:      "/ABOUT/"
 title:       "GitHub Page Template"
 lang:        "en-US"
