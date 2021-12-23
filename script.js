@@ -21,6 +21,7 @@ var combinationLock = {
 	check: function() {
 		if (this.combination === parseInt(this.wheels.join(''))) {
 			this.locked = false;
+			setTimeout(redirectIfUnlocked, 3000);
 		}
 		else {
 			this.locked = true;
@@ -103,5 +104,11 @@ function checkLock() {
 	else {
 		document.querySelector('#indicator').classList.add('locked');
 		document.querySelector('#indicator').classList.remove('unlocked');
+	}
+}
+
+function redirectIfUnlocked() {
+	if(combinationLock.locked === false) {
+		window.location.href = "https://www.google.com/";
 	}
 }
