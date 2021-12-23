@@ -10,11 +10,11 @@ body {
 #indicator {
 	border: 2px solid #070707;
 	border-radius: 50%;
-	height: 32px;
+	height: 64px;
 	margin: 0 auto 24px;
 	overflow: hidden;
 	position: relative;
-	width: 32px;
+	width: 64px;
 }
 #indicator.locked svg.unlocked {
 	transform: translate(-50%, 50%);
@@ -32,7 +32,7 @@ body {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	transition: transform 0.25s ease;
-	width: 16px;
+	width: 32px;
 }
 #indicator svg.locked {
 	background: #f56666;
@@ -47,7 +47,7 @@ body {
 	padding: 0 4px;
 }
 .wheel {
-	font-size: 24px;
+	font-size: 48px;
 	padding: 0 4px;
 	text-align: center;
 }
@@ -56,10 +56,10 @@ body {
 	border: 2px solid #070707;
 	border-radius: 50%;
 	cursor: pointer;
-	height: 24px;
+	height: 48px;
 	position: relative;
 	transition: border-color 0.1s ease;
-	width: 24px;
+	width: 48px;
 }
 .increment:active, .decrement:active {
 	border-color: #fff;
@@ -98,7 +98,7 @@ body {
 	    -ms-user-select: none;
 	        user-select: none;
 	transition: border-color 0.1s ease;
-	width: 24px;
+	width: 48px;
 }
 .digit:focus {
 	border-color: #fff;
