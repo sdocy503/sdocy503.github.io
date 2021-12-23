@@ -109,6 +109,6 @@ function checkLock() {
 
 function redirectIfUnlocked() {
 	if(combinationLock.locked === false) {
-		window.location.href = "https://www.google.com/";
+		window.location.href = "https://sdocy503.github.io/hayleeLocal";
 	}
 }
