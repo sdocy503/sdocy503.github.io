@@ -1,5 +1,5 @@
 var combinationLock = {
-	combination: 161,
+	combination: 892,
 	locked: true,
 	wheels: [0, 0, 0],
 	increment: function(wheel) {
@@ -109,6 +109,6 @@ function checkLock() {
 
 function redirectIfUnlocked() {
 	if(combinationLock.locked === false) {
-		window.location.href = "https://sdocy503.github.io/jLocal";
+		window.location.href = "https://sdocy503.github.io/jPlace";
 	}
 }
