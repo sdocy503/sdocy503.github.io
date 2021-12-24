@@ -1,17 +1,17 @@
 var combinationLock = {
-	combination: 704,
+	combination: 714,
 	locked: true,
-	wheels: [0, 0, 0],
+	wheels: [1, 1, 1],
 	increment: function(wheel) {
 		if (this.wheels[wheel] === 9) {
-			this.wheels[wheel] = 0;
+			this.wheels[wheel] = 1;
 		}
 		else {
 			this.wheels[wheel]++;
 		}
 	},
 	decrement: function(wheel) {
-		if (this.wheels[wheel] === 0) {
+		if (this.wheels[wheel] === 1) {
 			this.wheels[wheel] = 9;
 		}
 		else {
@@ -26,17 +26,7 @@ var combinationLock = {
 		else {
 			this.locked = true;
 		}
-	},
-	spin: function() {
-		for (i = 0; i < 3; i++) {
-			this.wheels[i] = getRandomInt(10, -1);
-		}
 	}
-}
-function getRandomInt(min, max) {
-	min = Math.ceil(min);
-	max = Math.floor(max);
-	return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 var increments = document.getElementsByClassName('increment');
